@@ -172,7 +172,7 @@ except:
     repo.create_file("scraped_products.xml", "Add XML file", content, branch="main")
 
 # GitHub Pages URL
-github_pages_url = f"https://github.com/rvhinthum/{repo_name}/blob/main/scraped_products.xml"
+github_pages_url = f"https://github.com/dhermans222/{repo_name}/blob/main/scraped_products.xml"
 
 print("File has been uploaded and can be accessed at:")
 print(github_pages_url)
